@@ -1,0 +1,725 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building psl-example 1.2.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ psl-example ---
+[INFO] Deleting /home/vatsal/psl/proj1/psl-example/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ psl-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ psl-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Using Groovy-Eclipse compiler to compile both Java and Groovy files
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.277 s
+[INFO] Finished at: 2016-03-23T06:19:50-07:00
+[INFO] Final Memory: 14M/190M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building psl-example 1.2.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ psl-example ---
+[INFO] Skipped writing classpath file '/home/vatsal/psl/proj1/psl-example/classpath.out'.  No changes found.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.960 s
+[INFO] Finished at: 2016-03-23T06:19:52-07:00
+[INFO] Final Memory: 15M/205M
+[INFO] ------------------------------------------------------------------------
+Model:
+{3.0} ( ( ( OBSBRIGHT(P_0_0, I) & NORTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_0, I) & NORTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & NORTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & NORTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_0, I) & EAST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_0, I) & EAST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & EAST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & EAST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_0, I) & SOUTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_0, I) & SOUTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & SOUTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & SOUTH(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_0, I) & WEST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_0, I) & WEST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & WEST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & WEST(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_0, I) & MIRRORVERTICAL(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_0, I) & MIRRORVERTICAL(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & MIRRORVERTICAL(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_0, I) ) & MIRRORVERTICAL(P_0_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_1, I) & NORTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_1, I) & NORTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & NORTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & NORTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_1, I) & EAST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_1, I) & EAST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & EAST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & EAST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_1, I) & SOUTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_1, I) & SOUTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & SOUTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & SOUTH(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_1, I) & WEST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_1, I) & WEST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & WEST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & WEST(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_0_1, I) & MIRRORVERTICAL(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_0_1, I) & MIRRORVERTICAL(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & MIRRORVERTICAL(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_0_1, I) ) & MIRRORVERTICAL(P_0_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_0, I) & NORTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_0, I) & NORTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & NORTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & NORTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_0, I) & EAST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_0, I) & EAST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & EAST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & EAST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_0, I) & SOUTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_0, I) & SOUTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & SOUTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & SOUTH(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_0, I) & WEST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_0, I) & WEST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & WEST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & WEST(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_0, I) & MIRRORVERTICAL(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_0, I) & MIRRORVERTICAL(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & MIRRORVERTICAL(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_0, I) ) & MIRRORVERTICAL(P_1_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_1, I) & NORTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_1, I) & NORTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & NORTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & NORTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_1, I) & EAST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_1, I) & EAST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & EAST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & EAST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_1, I) & SOUTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_1, I) & SOUTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & SOUTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & SOUTH(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_1, I) & WEST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_1, I) & WEST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & WEST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & WEST(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_1_1, I) & MIRRORVERTICAL(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_1_1, I) & MIRRORVERTICAL(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & MIRRORVERTICAL(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_1_1, I) ) & MIRRORVERTICAL(P_1_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_0, I) & NORTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_0, I) & NORTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & NORTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & NORTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_0, I) & EAST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_0, I) & EAST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & EAST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & EAST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_0, I) & SOUTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_0, I) & SOUTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & SOUTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & SOUTH(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_0, I) & WEST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_0, I) & WEST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & WEST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & WEST(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_0, I) & MIRRORVERTICAL(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_0, I) & MIRRORVERTICAL(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & MIRRORVERTICAL(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_0, I) ) & MIRRORVERTICAL(P_2_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_1, I) & NORTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_1, I) & NORTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & NORTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & NORTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_1, I) & EAST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_1, I) & EAST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & EAST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & EAST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_1, I) & SOUTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_1, I) & SOUTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & SOUTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & SOUTH(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_1, I) & WEST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_1, I) & WEST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & WEST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & WEST(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_2_1, I) & MIRRORVERTICAL(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_2_1, I) & MIRRORVERTICAL(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & MIRRORVERTICAL(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_2_1, I) ) & MIRRORVERTICAL(P_2_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_0, I) & NORTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_0, I) & NORTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & NORTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & NORTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_0, I) & EAST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_0, I) & EAST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & EAST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & EAST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_0, I) & SOUTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_0, I) & SOUTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & SOUTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & SOUTH(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_0, I) & WEST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_0, I) & WEST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & WEST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & WEST(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_0, I) & MIRRORVERTICAL(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_0, I) & MIRRORVERTICAL(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & MIRRORVERTICAL(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_0, I) ) & MIRRORVERTICAL(P_3_0, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_1, I) & NORTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_1, I) & NORTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & NORTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & NORTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_1, I) & EAST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_1, I) & EAST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & EAST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & EAST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_1, I) & SOUTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_1, I) & SOUTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & SOUTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & SOUTH(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_1, I) & WEST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_1, I) & WEST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & WEST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & WEST(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{3.0} ( ( ( OBSBRIGHT(P_3_1, I) & MIRRORVERTICAL(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{2.0} ( ( ( OBSBRIGHT(P_3_1, I) & MIRRORVERTICAL(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+{2.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & MIRRORVERTICAL(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> INFBRIGHT(A, I) {squared}
+{1.0} ( ( ( ~( OBSBRIGHT(P_3_1, I) ) & MIRRORVERTICAL(P_3_1, A) ) & ISPIXEL(A) ) & IMAGE(I) ) >> ~( INFBRIGHT(A, I) ) {squared}
+
+P_0_1
+P_0_2
+P_0_3
+P_1_1
+P_1_2
+P_1_3
+P_2_1
+P_2_2
+P_2_3
+P_3_1
+P_3_2
+P_3_3
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 0, 1]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 1, 1]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 2, 1]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 0]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 0, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 2, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 1, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 0, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 1, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 3, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 2, 3]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 3, 2]
+0.0
++++++++++++++++++++++++++++++++++++++++++++
+[P, 3, 1]
+[P, 0, 2]
+0.0
